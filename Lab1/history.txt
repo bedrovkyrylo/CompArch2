@@ -1,0 +1,152 @@
+    1  # apt-get install git
+    2  git
+    3  sudo apt install git
+    4  cd Git_repos/Comp_arch2/
+    5  git init
+    6  git add .
+    7  git commit -m "init"
+    8  git config --global user.email bedrov.kyrylo_io42@edu.kpi.ua
+    9  git config --global user.name Bedrov
+   10  git commit -m "init"
+   11  git add .
+   12  git commit -m "init"
+   13  git add
+   14  ls
+   15  git add Lab1
+   16  git commit -m "init"
+   17  git log
+   18  git status
+   19  touch README
+   20  ls
+   21  git add .
+   22  git status
+   23  git commit -m "init"
+   24  git push
+   25  git remote add origin https://github.com/bedrovkyrylo/CompArch2.git
+   26  git push -u origin main
+   27  git branch -M main
+   28  git push -u origin main
+   29  git remote add origin git@github.com:bedrovkyrylo/CompArch2.git
+   30  git remote remove origin
+   31  git remote add origin git@github.com:bedrovkyrylo/CompArch2.git
+   32  git push -u origin main
+   33  git remote remove origin
+   34  git remote add origin https://github.com/bedrovkyrylo/CompArch2.git
+   35  git push -u origin main
+   36  uname -a && hostname
+   37  sudo apt upgrade && sudo apt upgrade
+   38  cat /etc/apt/sources.list.d/ubuntu.sources
+   39  sudo apt install vim
+   40  cd ~
+   41  cd ~/Downloads
+   42  man ls
+   43  ls -l
+   44  cd
+   45  ls -l
+   46  dpkg -i something.deb
+   47  sudo dpkg something.deb
+   48  sudo dpkg -i something.deb
+   49  cd /
+   50  sudo su
+   51  echo hi all
+   52  echo $(pwd) hi all here!
+   53  cd
+   54  echo $(pwd) hi all here!
+   55  touch hi.sh
+   56  echo $PATH
+   57  ./hi.sh
+   58  chmod 755 hi.sh
+   59  chmod 777 hi.sh
+   60  vi hi.sh
+   61  ./hi.sh
+   62  ./hi.sh Ukraine
+   63  cp hi.sh scripts/
+   64  mkdir scripts
+   65  cp hi.sh scripts/
+   66  cp scripts/ Documents/
+   67  cp -r scripts/ Documents/
+   68  cd scripts
+   69  mv hi.sh ../
+   70  cd ..
+   71  rm scripts
+   72  man rm
+   73  rm -r scripts
+   74  ls
+   75  cd /bin
+   76  ls -l
+   77  cd ../..
+   78  cd
+   79  man tar
+   80  tar cvf scripts.tar scripts/
+   81  ls
+   82  tar cvf scripts.tar scripts/
+   83  cat scripts/hi.sh
+   84  car /var/log/syslog
+   85  cat /var/log/syslog
+   86  sudo cat /var/log/syslog
+   87  sudo tail /var/log/syslog
+   88  man less
+   89  less /var/log/syslog
+   90  sudo less /var/log/syslog
+   91  cd /
+   92  sudo tail -n 20 /var/log/syslog
+   93  find . -name "dhcp"
+   94  man find
+   95  find .iname "*dhcp*"
+   96  find . -iname "*dhcp*"
+   97  man grep
+   98  find . -name "*dhcp*" | grep --color=always -i dhcp
+   99  find . -name "*dhcp*" | grep --color=always -i etc
+  100  ping google.com
+  101  ping google.com &
+  102  fg
+  103  ping google.com & && date >> ping.log
+  104  (ping google.com &) && date >> ping.log
+  105  fg
+  106  ping google.com &
+  107  fg
+  108  pidof ping
+  109  killall ping
+  110  man ping
+  111  sudo ping -c 10 google.com
+  112  vlc
+  113  sudo apt install vlc-bin
+  114  cd
+  115  vlc
+  116  ls -l
+  117  cd /bin
+  118  ls
+  119  echo $PATH
+  120  printenv
+  121  whoami
+  122  cd /etc
+  123  ls
+  124  cd ..
+  125  cd lib/
+  126  ls
+  127  dmesg
+  128  sudo dmesg
+  129  ls /dev
+  130  sudo dmesg -C
+  131  sudo dmesg | tail -n 20
+  132  df -h
+  133  cd /home
+  134  ls -l
+  135  lsmod
+  136  cd /proc
+  137  cat cpuinfo
+  138  echo 1 > sys/net/ipv4/ip_forward
+  139  sudo su
+  140  history
+  141  cd /
+  142  ip addr
+  143  ip link show
+  144  cd
+  145  echo vika > 1.txt
+  146  cat 1.txt
+  147  echo vasya > 2.txt
+  148  cat 2.txt
+  149  diff 1.txt 2.txt
+  150  history
+  151  lspci
+  152  history > history.txt

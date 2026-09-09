@@ -1,0 +1,9 @@
+   36  fg
+   37  ps -eo user,pid,lstart,stat,time,cmd | grep ping
+   38  kill -TERM 8961
+   39  ps aux | grep ping
+   40  kill 13235
+   41  sudo kill 13235
+   42  sudo killall vlc
+   43  history
+   44  history | tail -n 10 > history2.txt
