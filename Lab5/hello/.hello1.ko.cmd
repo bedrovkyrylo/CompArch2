@@ -1,0 +1,1 @@
+savedcmd_hello1.ko := ccache arm-none-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/vboxuser/repos/linux-stable/scripts/module.lds -o hello1.ko hello1.o hello1.mod.o .module-common.o
